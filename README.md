@@ -48,3 +48,23 @@
 <li>If everything went as expected, you should see a “Done uploading.” message.</li>
 <li>Open the Arduino IDE Serial Monitor at a baud rate of 115200:</li>
 <li>Press the ESP32 on-board Enable button and you should see the networks available near your ESP32:</li>
+
+### 3. Installing ESP32CAM Library
+<li>Here we will not use the general ESP webserver example rather another streaming process. Therefore we need to add another ESPCAM library. The esp32cam library provides an object oriented API to use OV2640 camera on ESP32 microcontroller. It is a wrapper of esp32-camera library.</li>
+<li>Go to the following <a href="https://github.com/yoursunny/esp32cam">Github</a> Link and download the zip library as in the image</li>
+<li>Once downloaded add this zip library to Arduino Libray Folder. To do so follow the following steps:
+Open Arduino -> Sketch -> Include Library -> Add .ZIP Library… -> Navigate to downloaded zip file -> add</li>
+<li>Source Code/Program for ESP32 CAM Module</li>
+<li>Here is a source code for Face Recognition Based Attendance System using ESP32 CAM & OpenCV. Copy the code and paste it in the Arduino IDE.</li>
+<li>Before Uploading the code you have to make a small change to the code. Change the SSID and password variable and in accordance with your WiFi network.</li>
+</li>
+  <li>Now compile and upload it to the ESP32 CAM Board. But during uploading, you have to follow few steps every time.</li>
+  <ul>
+    <li>Make sure the IO0 pin is shorted with the ground when you have pressed the upload button.</li>
+    <li>If you see the dots and dashes while uploading press the reset button immediately</li>
+    <li>Once the code is uploaded, remove the I01 pin shorting with Ground and press the reset button once again.</li>
+    <li>If the output is the Serial monitor is still not there then press the reset button again.</li>
+  </ul>
+</li>
+<li>Now copy the IP address visible in the serial port monitor, we will be using it to edit the URL in python code</li>
+<h2 href="https://visualstudio.microsoft.com/downloads/">Install visual stdio</h2>
