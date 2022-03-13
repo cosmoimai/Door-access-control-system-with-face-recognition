@@ -29,6 +29,7 @@
   <li>Battery</li>
   <li>Electronic door lock 12V</li>
 </ul>
+
 ### 1. Installing the ESP32 Board
 <li>Open the preferences window from the Arduino IDE. Go to Arduino > Preferences</li>
 <li>Enter <b>https://dl.espressif.com/dl/package_esp32_index.json</b> into the “Additional Board Manager URLs” field as shown in the figure below. Then, click the “OK” button:</li>
