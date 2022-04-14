@@ -67,4 +67,11 @@ Open Arduino -> Sketch -> Include Library -> Add .ZIP Library… -> Navigate to 
   </ul>
 </li>
 <li>Now copy the IP address visible in the serial port monitor, we will be using it to edit the URL in python code</li>
-<h2 href="https://visualstudio.microsoft.com/downloads/">Install visual stdio</h2>
+
+### 4. Working of the ESP32 cam module
+
+
+### 5. Install visual stdio
+<li>Now in order to proceed further, we need to install Visual studio. We are doing so because there are certain dependencies that we will be required, to install the libraries. Then, download the latest community version.Once downloaded install the software a welcome installation screen would appear, now select the community version. After this from numerous selecting boxes, select Desktop development with C++. Now that you have selected the click on Install/Modify at the Right corner below. This process will take time as it will download large files.Once installed it will ask for restarting the PC. So that will be done automatically.</li>
+
+### 6. Setting Up the RaspberryPi 
